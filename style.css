@@ -1,0 +1,17 @@
+.img,img{
+    opacity: 0%;
+    height: 25px;
+    width: 100%;
+}
+.img:hover{
+    height: 1000px;
+    width: 1000px;
+    opacity: 100%;
+}
+span[href]{
+    cursor:pointer;
+    transition: color .2s;
+}
+span:hover{
+    color: blue;
+}
